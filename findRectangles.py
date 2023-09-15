@@ -58,10 +58,11 @@ def generate_valid_rectangles(coordinates):
 
 st.title("Rectangle Finder")
 uploaded_file = st.file_uploader("Import File Containing Closed Curve", type=["txt"])
-plot_all_points = st.checkbox("Plot All Points", value=False)
-plot_lines_from_points = st.checkbox("Draw Lines", value=False)
+
 
 if uploaded_file is not None:
+    plot_all_points = st.checkbox("Plot All Points", value=False)
+    plot_lines_from_points = st.checkbox("Draw Lines", value=False)
     # Read the uploaded text file and split it into lines
     file_contents = uploaded_file.read().decode('utf-8').splitlines()
 
