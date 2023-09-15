@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib as plt
 from scipy.interpolate import interp1d
 import numpy as np
 import random
