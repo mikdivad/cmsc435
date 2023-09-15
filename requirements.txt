@@ -1,3 +1,7 @@
 pandas
 matplotlib
 streamlit
+scipy
+numpy
+random
+itertools
